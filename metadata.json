@@ -1,0 +1,7 @@
+{
+  "name": "Lumina Venues",
+  "description": "A premium venue booking platform powered by AI to help you find the perfect space for weddings, corporate events, and parties.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

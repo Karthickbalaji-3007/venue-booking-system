@@ -1,0 +1,102 @@
+import { Venue, VenueType } from './types';
+
+export const MOCK_VENUES: Venue[] = [
+  {
+    id: 'v1',
+    name: 'The Grand Oakhaven',
+    description: 'A historic estate surrounded by century-old oaks. Perfect for fairy-tale weddings and elegant galas.',
+    location: 'Napa Valley, CA',
+    pricePerHour: 500,
+    capacity: 200,
+    rating: 4.9,
+    reviewsCount: 128,
+    imageUrl: 'https://picsum.photos/seed/venue1/800/600',
+    type: VenueType.WEDDING,
+    amenities: ['Catering Kitchen', 'Bridal Suite', 'Valet Parking', 'Garden'],
+    features: ['romantic', 'luxury', 'outdoor', 'historic', 'elegant']
+  },
+  {
+    id: 'v2',
+    name: 'TechLoft Downtown',
+    description: 'A modern, industrial-chic loft space in the heart of the city. Ideal for hackathons, product launches, and networking.',
+    location: 'San Francisco, CA',
+    pricePerHour: 250,
+    capacity: 80,
+    rating: 4.7,
+    reviewsCount: 85,
+    imageUrl: 'https://picsum.photos/seed/venue2/800/600',
+    type: VenueType.CORPORATE,
+    amenities: ['High-speed WiFi', 'Projector', 'Sound System', 'Whiteboards'],
+    features: ['modern', 'industrial', 'tech', 'urban', 'bright']
+  },
+  {
+    id: 'v3',
+    name: 'Neon Nights Club',
+    description: 'Vibrant underground club atmosphere with state-of-the-art lighting and sound. The ultimate spot for birthday bashes.',
+    location: 'Austin, TX',
+    pricePerHour: 300,
+    capacity: 150,
+    rating: 4.5,
+    reviewsCount: 210,
+    imageUrl: 'https://picsum.photos/seed/venue3/800/600',
+    type: VenueType.PARTY,
+    amenities: ['Full Bar', 'DJ Booth', 'Dance Floor', 'VIP Area'],
+    features: ['party', 'nightlife', 'loud', 'energetic', 'dark']
+  },
+  {
+    id: 'v4',
+    name: 'Minimalist Photo Studio',
+    description: 'North-facing windows provide perfect natural light. A blank canvas for creative photography and videography shoots.',
+    location: 'Brooklyn, NY',
+    pricePerHour: 100,
+    capacity: 15,
+    rating: 4.8,
+    reviewsCount: 45,
+    imageUrl: 'https://picsum.photos/seed/venue4/800/600',
+    type: VenueType.STUDIO,
+    amenities: ['Cyclorama Wall', 'Makeup Station', 'Changing Room', 'Props'],
+    features: ['creative', 'small', 'bright', 'quiet', 'artistic']
+  },
+  {
+    id: 'v5',
+    name: 'Sunset Rooftop Terrace',
+    description: 'Breathtaking skyline views. This open-air venue offers a sophisticated setting for cocktail hours and intimate gatherings.',
+    location: 'Miami, FL',
+    pricePerHour: 400,
+    capacity: 100,
+    rating: 4.6,
+    reviewsCount: 92,
+    imageUrl: 'https://picsum.photos/seed/venue5/800/600',
+    type: VenueType.OUTDOOR,
+    amenities: ['Bar', 'Lounge Furniture', 'Heat Lamps', 'Audio System'],
+    features: ['view', 'outdoor', 'chic', 'sunset', 'social']
+  },
+  {
+    id: 'v6',
+    name: 'The Rustic Barn',
+    description: 'Authentic reclaimed wood barn with modern comforts. A cozy and warm atmosphere for family reunions and rustic weddings.',
+    location: 'Nashville, TN',
+    pricePerHour: 200,
+    capacity: 120,
+    rating: 4.8,
+    reviewsCount: 150,
+    imageUrl: 'https://picsum.photos/seed/venue6/800/600',
+    type: VenueType.WEDDING,
+    amenities: ['Tables & Chairs', 'String Lights', 'Parking', 'Kitchenette'],
+    features: ['rustic', 'country', 'warm', 'family', 'cozy']
+  },
+  {
+    id: 'v7',
+    name: 'Innovation Hub Auditorium',
+    description: 'Large scale presentation hall with tiered seating and professional AV support. Built for conferences and seminars.',
+    location: 'Seattle, WA',
+    pricePerHour: 600,
+    capacity: 500,
+    rating: 4.9,
+    reviewsCount: 60,
+    imageUrl: 'https://picsum.photos/seed/venue7/800/600',
+    type: VenueType.CORPORATE,
+    amenities: ['Stage', 'Microphones', 'Green Room', 'Live Streaming'],
+    features: ['professional', 'large', 'serious', 'educational']
+  }
+];
